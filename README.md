@@ -12,11 +12,15 @@ Installez la bibliothèque via npm ou yarn :
 npm install votre-package
 # ou
 yarn add votre-package
+```
 
-Utilisation
+---
 
-Voici un exemple d'utilisation de DateTimePicker :
+## Utilisation
 
+Voici un exemple d'utilisation de `DateTimePicker` :
+
+```javascript
 import React, { useState } from "react";
 import DateTimePicker from "votre-package";
 
@@ -38,29 +42,43 @@ function App() {
 }
 
 export default App;
-
-API du Composant
-Props
-Prop	Type	Description	Obligatoire
-value	string	La date initiale au format MM/DD/YYYY.	Non
-onChange	function	Fonction de rappel appelée lorsque la date change, recevant la date au format MM/DD/YYYY.	Non
-Fonctionnalités
-
-    Gestion automatique des formats :
-        Affiche la date au format YYYY-MM-DD dans le champ de saisie HTML.
-        Retourne la date au format MM/DD/YYYY via la prop onChange.
-
-    Synchronisation automatique :
-        Met à jour l'état interne (date) lorsque la prop value change.
-
-Méthodes Utilitaires
-formatToDisplay(dateStr)
-
-    Entrée : Une chaîne de caractères au format YYYY-MM-DD.
-    Sortie : Une chaîne de caractères au format MM/DD/YYYY.
-
-formatToInput(dateStr)
-
-    Entrée : Une chaîne de caractères au format MM/DD/YYYY.
-    Sortie : Une chaîne de caractères au format YYYY-MM-DD.
 ```
+
+---
+
+## API du Composant
+
+### Props
+
+| Prop       | Type       | Description                                                                                 | Obligatoire |
+| ---------- | ---------- | ------------------------------------------------------------------------------------------- | ----------- |
+| `value`    | `string`   | La date initiale au format `MM/DD/YYYY`.                                                    | Non         |
+| `onChange` | `function` | Fonction de rappel appelée lorsque la date change, recevant la date au format `MM/DD/YYYY`. | Non         |
+
+---
+
+## Fonctionnalités
+
+1. **Gestion automatique des formats** :
+
+   - Affiche la date au format `YYYY-MM-DD` dans le champ de saisie HTML.
+   - Retourne la date au format `MM/DD/YYYY` via la prop `onChange`.
+
+2. **Synchronisation automatique** :
+   - Met à jour l'état interne (`date`) lorsque la prop `value` change.
+
+---
+
+## Méthodes Utilitaires
+
+### `formatToDisplay(dateStr)`
+
+- **Entrée** : Une chaîne de caractères au format `YYYY-MM-DD`.
+- **Sortie** : Une chaîne de caractères au format `MM/DD/YYYY`.
+
+### `formatToInput(dateStr)`
+
+- **Entrée** : Une chaîne de caractères au format `MM/DD/YYYY`.
+- **Sortie** : Une chaîne de caractères au format `YYYY-MM-DD`.
+
+---
