@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 /**
  * @param {string} dateStr - date in the format "YYYY-MM-DD"
