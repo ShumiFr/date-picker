@@ -1,6 +1,6 @@
 {
   "name": "@shumifr/react-date-picker",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "Composant React simple permettant de choisir la date qu'on souhaite via un petit calendrier qui s'affiche en dessous de l'input et de formater la date obtenu.",
   "repository": {
     "type": "git",
