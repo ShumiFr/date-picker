@@ -24,7 +24,7 @@ Voici un exemple d'utilisation de `DatePicker` :
 
 ```javascript
 import React, { useState } from "react";
-import DatePicker from "date-picker";
+import DatePicker from "@shumifr/react-date-picker";
 
 function App() {
   const [date, setDate] = useState("");
