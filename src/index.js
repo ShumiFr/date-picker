@@ -1,2 +1,2 @@
 export * from "./lib";
-export { default as DateTimePicker } from "./lib/DateTimePicker";
+export { default as DatePicker } from "./lib/DatePicker";
