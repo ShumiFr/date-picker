@@ -18,7 +18,7 @@ const formatToInput = (dateStr) => {
   return `${year}-${month}-${day}`;
 };
 
-const DateTimePicker = ({ value, onChange }) => {
+const DatePicker = ({ value, onChange }) => {
   const [date, setDate] = useState(value ? formatToInput(value) : "");
 
   useEffect(() => {
@@ -43,4 +43,4 @@ const DateTimePicker = ({ value, onChange }) => {
   );
 };
 
-export default DateTimePicker;
+export default DatePicker;
