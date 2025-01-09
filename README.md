@@ -11,9 +11,9 @@ Je pourrai peut être faire une mise à jour pour pouvoir choisir le format que 
 Installez la bibliothèque via npm ou yarn :
 
 ```bash
-npm install date-picker
+npm install @shumifr/react-date-picker
 # ou
-yarn add date-picker
+yarn add @shumifr/react-date-picker
 ```
 
 ---
